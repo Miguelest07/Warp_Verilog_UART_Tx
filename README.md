@@ -54,15 +54,17 @@ Click Ok and now we have created the block successfully!
 
 Right click in any space of the symbol page and select the option “Generate Verilog”, click on generate in the tab displayed and now we have generated the verilog file!
 
+![OFF](https://github.com/Miguelest07/Warp_Verilog_UART_Tx/blob/main/Images/20.PNG)
+
 # Fourth step: It is moment to code!
 
 The autogeneration tool of PSoC creator generates the first draft of the Verilog file in such a way that you only need to implement the structures you need. In the section “your code goes here” you can start to code and implement any program it is capable of!
 
 ![OFF](https://github.com/Miguelest07/Warp_Verilog_UART_Tx/blob/main/Images/9.PNG)
 
-![OFF](https://github.com/Miguelest07/Warp_Verilog_UART_Tx/blob/main/Images/10.PNG)
-
 Using some theory in UART communication I implemented the next following code for sending a 8 bit data over UART any time the data changes its value. Entire code (UART_verilog_exaple.v)
+
+![OFF](https://github.com/Miguelest07/Warp_Verilog_UART_Tx/blob/main/Images/10.PNG)
 
 ![OFF](https://github.com/Miguelest07/Warp_Verilog_UART_Tx/blob/main/Images/11.PNG)
 
@@ -97,5 +99,9 @@ And were successfully transmitted over 9600 baud Serial communication.
 
 ![OFF](https://github.com/Miguelest07/Warp_Verilog_UART_Tx/blob/main/Images/17.PNG)
 
+It works flawlessly but there still things to improve. 
+
 ![OFF](https://github.com/Miguelest07/Warp_Verilog_UART_Tx/blob/main/Images/18.PNG)
+
+![OFF](https://github.com/Miguelest07/Warp_Verilog_UART_Tx/blob/main/Images/19.PNG)
 
