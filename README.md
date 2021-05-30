@@ -60,9 +60,11 @@ The autogeneration tool of PSoC creator generates the first draft of the Verilog
 
 ![OFF](https://github.com/Miguelest07/Warp_Verilog_UART_Tx/blob/main/Images/9.PNG)
 
+![OFF](https://github.com/Miguelest07/Warp_Verilog_UART_Tx/blob/main/Images/10.PNG)
+
 Using some theory in UART communication I implemented the next following code for sending a 8 bit data over UART any time the data changes its value. Entire code (UART_verilog_exaple.v)
 
-![OFF](https://github.com/Miguelest07/Warp_Verilog_UART_Tx/blob/main/Images/10.PNG)
+![OFF](https://github.com/Miguelest07/Warp_Verilog_UART_Tx/blob/main/Images/11.PNG)
 
 Now save code. You can use the fast command Ctrl + S inside of the component section and in the source too.
 
@@ -70,30 +72,30 @@ Now save code. You can use the fast command Ctrl + S inside of the component sec
 
 Go to the top design and now we can see the block we have already created in the Default tab .
 
-![OFF](https://github.com/Miguelest07/Warp_Verilog_UART_Tx/blob/main/Images/11.PNG)
+![OFF](https://github.com/Miguelest07/Warp_Verilog_UART_Tx/blob/main/Images/12.PNG)
 
 We can use the block and connect the required peripherals. 
 
 In this example I am using a control register and an output pin to connect to the USB TTL converter and see the terminal. I used a 9.585 Khz clock to simulate a 9600 bits per second transmission due debugging conclusions.
 
-![OFF](https://github.com/Miguelest07/Warp_Verilog_UART_Tx/blob/main/Images/12.PNG)
+![OFF](https://github.com/Miguelest07/Warp_Verilog_UART_Tx/blob/main/Images/13.PNG)
 
 Assign the pinout to the pin you want to connect the USB TTL converter and lets see the output.
 For building the project click on build design.
 
-![OFF](https://github.com/Miguelest07/Warp_Verilog_UART_Tx/blob/main/Images/13.PNG)
+![OFF](https://github.com/Miguelest07/Warp_Verilog_UART_Tx/blob/main/Images/14.PNG)
 
 If the code implemented fulfills the syntaxis of the Verilog file according to the Warp compliance and the technical refereces [1], everything should be ok.
 
-![OFF](https://github.com/Miguelest07/Warp_Verilog_UART_Tx/blob/main/Images/14.PNG)
+![OFF](https://github.com/Miguelest07/Warp_Verilog_UART_Tx/blob/main/Images/15.PNG)
 
 For debuggin the UART transmitter I assigned two values to the status register
 
-![OFF](https://github.com/Miguelest07/Warp_Verilog_UART_Tx/blob/main/Images/15.PNG)
+![OFF](https://github.com/Miguelest07/Warp_Verilog_UART_Tx/blob/main/Images/16.PNG)
 
 And were successfully transmitted over 9600 baud Serial communication.
 
-![OFF](https://github.com/Miguelest07/Warp_Verilog_UART_Tx/blob/main/Images/16.PNG)
-
 ![OFF](https://github.com/Miguelest07/Warp_Verilog_UART_Tx/blob/main/Images/17.PNG)
+
+![OFF](https://github.com/Miguelest07/Warp_Verilog_UART_Tx/blob/main/Images/18.PNG)
 
