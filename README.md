@@ -44,7 +44,7 @@ Now we have the component created. But I forgot to place the data bus which will
 
 ![OFF](https://github.com/Miguelest07/Warp_Verilog_UART_Tx/blob/main/Images/7.PNG)
 
-In that button you can determine the bit lenght, I want a data bus about 8 bits which will be displayed as a bus wire.
+In that button you can determine the bit lenght, I want a data bus about 8 bits which will be displayed as a bus wire as D[7:0].
 
 ![OFF](https://github.com/Miguelest07/Warp_Verilog_UART_Tx/blob/main/Images/8.PNG)
 
