@@ -72,7 +72,7 @@ Now save code. You can use the fast command Ctrl + S inside of the component sec
 
 # Last step: build the design and implement the block
 
-Go to the top design and now we can see the block we have already created in the Default tab .
+Go to the top design and now we can see the block we have already created in the Default tab. Click on source and open the TopDesign file to put the blocks in the microcontroller, you can find the block inside of the components section in the Default folder.
 
 ![OFF](https://github.com/Miguelest07/Warp_Verilog_UART_Tx/blob/main/Images/12.PNG)
 
