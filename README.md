@@ -12,7 +12,7 @@ The next steps are the bread-and-butter because is the process of creation a PSo
 File > New > Project...
 Select the target kit as our kit PSoC 5LP, select blank schematic and name the workspace.
 
-1
+![OFF](https://github.com/Miguelest07/STM32F1_ADXL345_DigitalFilter/blob/main/Images/1.PNG)
 
 Click finish.
 
